@@ -170,3 +170,11 @@ If a domain matches both the `global_allow_list` and the `global_deny_list`, the
 
 # Additional resources
 - [fly.io blog post](https://fly.io/blog/practical-smokescreen-sanitizing-your-outbound-web-requests/)
+
+
+# Test with Docker
+`docker build -t smokescreen .`
+
+`docker run -p 4750:4750 smokescreen`
+
+`curl -x localhost:4750 https://fly.io`
