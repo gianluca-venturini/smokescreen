@@ -167,3 +167,6 @@ If a domain matches both the `global_allow_list` and the `global_deny_list`, the
 - Evan Broder
 - Marc-André Tremblay
 - Ryan Koppenhaver
+
+# Additional resources
+- [fly.io blog post](https://fly.io/blog/practical-smokescreen-sanitizing-your-outbound-web-requests/)
